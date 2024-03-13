@@ -1,0 +1,58 @@
+{
+  "_runtime-core.esm-bundler-PtAo0so5.js": {
+    "file": "assets/runtime-core.esm-bundler-PtAo0so5.js"
+  },
+  "assets/admin/main.js": {
+    "file": "assets/admin-MJ2m1Xyf.js",
+    "src": "assets/admin/main.js",
+    "isEntry": true,
+    "imports": [
+      "_runtime-core.esm-bundler-PtAo0so5.js"
+    ],
+    "css": [
+      "assets/admin-Bshr2edx.css"
+    ],
+    "assets": [
+      "assets/movebender-Bb5oNpz_.svg"
+    ]
+  },
+  "assets/breakdance/main.js": {
+    "file": "assets/breakdance-BWcupbPN.js",
+    "src": "assets/breakdance/main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "assets/breakdance/modules/plain-classses/main.js",
+      "assets/breakdance/modules/ko-fi/main.js"
+    ],
+    "css": [
+      "assets/breakdance-BkdyIm63.css"
+    ]
+  },
+  "assets/breakdance/modules/ko-fi/main.js": {
+    "file": "assets/main-B1aSJHN7.js",
+    "src": "assets/breakdance/modules/ko-fi/main.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "assets/breakdance/main.js"
+    ],
+    "css": [
+      "assets/main-CVoQuXGr.css"
+    ]
+  },
+  "assets/breakdance/modules/plain-classses/main.js": {
+    "file": "assets/main-CSbxYNMb.js",
+    "src": "assets/breakdance/modules/plain-classses/main.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "assets/breakdance/main.js",
+      "_runtime-core.esm-bundler-PtAo0so5.js"
+    ],
+    "css": [
+      "assets/main-B08GyAtI.css"
+    ]
+  },
+  "movebender.svg": {
+    "file": "assets/movebender-Bb5oNpz_.svg",
+    "src": "movebender.svg"
+  }
+}
