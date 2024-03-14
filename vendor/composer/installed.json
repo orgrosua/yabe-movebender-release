@@ -156,6 +156,56 @@
             "install-path": "..\/paragonie\/random_compat"
         },
         {
+            "name": "rosua\/edd-sl-plugin-updater",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/orgrosua\/edd-sl-plugin-updater.git",
+                "reference": "08541c36691b1490fa926a8f731b1d000cf04e68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/orgrosua\/edd-sl-plugin-updater\/zipball\/08541c36691b1490fa926a8f731b1d000cf04e68",
+                "reference": "08541c36691b1490fa926a8f731b1d000cf04e68",
+                "shasum": ""
+            },
+            "time": "2024-01-25T04:13:40+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "_YabeMovebender\\EDD_SL\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "EasyDigitalDownloads",
+                    "email": "contact@easydigitaldownloads.com"
+                },
+                {
+                    "name": "Rosua",
+                    "email": "id@rosua.org"
+                }
+            ],
+            "description": "Easy Digital Downloads WordPress plugin updater class for Software Licenses",
+            "keywords": [
+                "edd",
+                "updates",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/orgrosua\/edd-sl-plugin-updater\/issues",
+                "source": "https:\/\/github.com\/orgrosua\/edd-sl-plugin-updater\/tree\/master"
+            },
+            "install-path": "..\/rosua\/edd-sl-plugin-updater"
+        },
+        {
             "name": "symfony\/deprecation-contracts",
             "version": "v2.5.2",
             "version_normalized": "2.5.2.0",

@@ -60,7 +60,7 @@ class BreakdanceEditor
     }
     public function init()
     {
-        \add_action('breakdance_loaded', fn() => $this->editor_assets(), 1000000);
+        \add_action('wp', fn() => $this->editor_assets(), 1000001);
     }
     public function editor_assets()
     {
@@ -68,10 +68,6 @@ class BreakdanceEditor
             return;
         }
         \do_action('a!yabe/movebender/core/breakdanceeditor:editor_assets.start');
-        // AssetVite::get_instance()->enqueue_asset('assets/move/main.js', [
-        //     'handle' => MOVEBENDER::WP_OPTION . ':editor',
-        //     'in_footer' => true,
-        // ]);
         $localize = \json_encode(['_version' => MOVEBENDER::VERSION, '_wpnonce' => \wp_create_nonce(MOVEBENDER::WP_OPTION), 'rest_api' => [
             'nonce' => \wp_create_nonce('wp_rest'),
             // 'root' => esc_url_raw(rest_url()),
