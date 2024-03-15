@@ -17,19 +17,16 @@
     ]
   },
   "assets/breakdance/main.js": {
-    "file": "assets/breakdance-BWcupbPN.js",
+    "file": "assets/breakdance-D2qmmpMQ.js",
     "src": "assets/breakdance/main.js",
     "isEntry": true,
     "dynamicImports": [
       "assets/breakdance/modules/plain-classses/main.js",
       "assets/breakdance/modules/ko-fi/main.js"
-    ],
-    "css": [
-      "assets/breakdance-BkdyIm63.css"
     ]
   },
   "assets/breakdance/modules/ko-fi/main.js": {
-    "file": "assets/main-B1aSJHN7.js",
+    "file": "assets/main-BcamB9U0.js",
     "src": "assets/breakdance/modules/ko-fi/main.js",
     "isDynamicEntry": true,
     "imports": [
@@ -40,7 +37,7 @@
     ]
   },
   "assets/breakdance/modules/plain-classses/main.js": {
-    "file": "assets/main-CSbxYNMb.js",
+    "file": "assets/main-C5T013a5.js",
     "src": "assets/breakdance/modules/plain-classses/main.js",
     "isDynamicEntry": true,
     "imports": [
